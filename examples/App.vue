@@ -35,7 +35,7 @@
         Type in the text fields above to test the auto-size input.
       </div>
       <div class="footer">
-        Copyright &copy; houjiazong 2018. MIT Licensed.
+        Copyright &copy; houjiazong 2020. MIT Licensed.
       </div>
     </div>
   </div>
