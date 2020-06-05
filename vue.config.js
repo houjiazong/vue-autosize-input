@@ -1,5 +1,6 @@
 module.exports = {
   publicPath: './',
+  outputDir: 'docs',
   configureWebpack: {
     output: {
       libraryExport: 'default',
