@@ -1,0 +1,46 @@
+{
+  "name": "vue-autosize-input",
+  "version": "0.1.0",
+  "description": "Auto-resizing Input Component for Vue",
+  "private": false,
+  "main": "lib/vue-autosize-input.umd.min.js",
+  "author": "houjiazong<houjiazong@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/houjiazong/vue-autosize-input"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name vue-autosize-input --dest lib src/AutosizeInput.js"
+  },
+  "dependencies": {
+    "vue-autosize-input": "^0.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.4.0",
+    "@vue/cli-plugin-eslint": "~4.4.0",
+    "@vue/cli-service": "~4.4.0",
+    "@vue/eslint-config-standard": "^5.1.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "lint-staged": "^9.5.0",
+    "vue": "^2.6.11",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx,vue}": [
+      "vue-cli-service lint",
+      "git add"
+    ]
+  }
+}
