@@ -155,7 +155,6 @@ const AutosizeInput = {
     const { ...inputProps } = this.$props
     cleanInputProps(inputProps)
     return h('div', {
-      class: this.inputClass,
       style: {
         display: 'inline-block',
       },
