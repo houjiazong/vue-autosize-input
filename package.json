@@ -1,6 +1,6 @@
 {
   "name": "vue-autosize-input",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Auto-resizing Input Component for Vue",
   "private": false,
   "main": "lib/vue-autosize-input.umd.min.js",
